@@ -25,11 +25,11 @@ public class User implements UserDetails {
     @Basic
     @Column(nullable = false)
     String username;
-    String password;
     @Column(nullable = false)
-    String firstName;
     String lastName;
+    String firstName;
     String country;
+    String password;
     @Enumerated(EnumType.STRING)
     Role role;
 
