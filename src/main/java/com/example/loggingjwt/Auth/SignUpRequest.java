@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 public class SignUpRequest {
     String username;
     String password;
-    String firstName;
     String lastName;
+    String firstName;
     String country;
 }
